@@ -1,4 +1,14 @@
 # Sales and Customer Performance Dashboard (2020–2023)
+## Table of Content 
+- [Project Overview](#project-overview)
+- [Business Problem](#business-problem)
+- [Key Performance Indicators](#key-performance-indicators)
+- [Story Requirements](#story-requirements)
+- [Dashboard Preview](#dashboard-preview)
+- [Dataset Preview](#dataset-preview)
+- [Key Insights](#key-insights)
+- [Recommendations](#recommendations)
+- [Tableau Skills](#tableau-skills)
 
 ## Project Overview
 
@@ -7,8 +17,6 @@ This project is an interactive Tableau Sales & Customer Dashboard developed to a
 It was built based on a real-world user story requirement, it provide insights into Sales,Profit , Quantity, and Customer Behavior,comparing performance accross multiple years to identify growth trends and key drivers.This dashboard combines Sales Performance and Customer Insights into a single, interactive solution.
 
 The dashboard design was inspired by a Youtube project by Baraa; however,the dashboard was recreated and customized independently,and all analysis,insights and reconmendation were developed without copying to reflect real-world business thinking. This work focuses on generating independent insights and business recommendations.
-
-
 
 ## Business Problem
 
@@ -21,7 +29,7 @@ Businesses often struggle to:
 
  This dashboard solves these problems by providing clear, interactive insights.
 
-## Key Performance Indicators (KPIs)
+## Key Performance Indicators 
 The dashboard tracks the following KPIs:
 ### Sales KPIs
 - Total Sales 
@@ -77,15 +85,43 @@ The dashboard tracks the following KPIs:
 ### Tableau link : 
 https://public.tableau.com/app/profile/sherifat.ahmed/viz/salesdashboard2_17678447702250/CustomersDashboard
 
-## Dataset
+## Dataset Preview
 
 - Source: https://www.datawithba/
 - Format: CSV
 - ### Contents:
-- Customers
-- Orders
-- Products
-- Location     
+- ### Customers Table
+  
+| Customer ID	| Customer Name
+|--------------|--------------|
+|AA-10315	|Alex Avila
+|AA-10375|	Allen Armold
+|AA-10480	|Andrew Allen
+
+- ### Orders Table
+
+|Row ID|	Order ID|	Order Date|	Ship Date|	Ship Mode|	Customer ID|	Segment	| Postal Code|	Product ID|	Sales	| Quantity	| Discount	| Profit|
+|-------|---------|-----------|----------|----------|------------|---------|------------|-----------|-------|----------|----------|--------|
+| 1| CA-2022-152156|	08/11/2022|	11/11/2022	| Second Class|	CG-12520	| Consumer|	42420| FUR-BO-10001798|	26196| 2| 0| 419136|
+| 2|	CA-2022-152156|	08/11/2022|	11/11/2022|	Second Class|	CG-12520|	Consumer|	42420|	FUR-CH-10000454|	73194|	3	|0|	219582|
+| 3|	CA-2022-138688|	12/06/2022| 16/06/2022|	Second Class|	DV-13045|	Corporate|	90036|	OFF-LA-10000240|	1462|	2	|0	|68714|
+
+
+- ### Products Table
+|Product ID|	Category|	Sub-Category|	Product Name|
+|----------|---------|-------------|-------------|
+|FUR-BO-10000112|	Furniture	|Bookcases|	Bush Birmingham Collection Bookcase, Dark Cherry|
+|FUR-BO-10000330|Furniture|	Bookcases	|Sauder Camden County Barrister Bookcase, Planked Cherry Finish|
+FUR-BO-10000362|	Furniture	|Bookcases	|Sauder Inglewood Library Bookcases|
+
+- ### Locations
+|Postal Code|	City	|State	|Region	| Country/Region
+|-----------|------|------|-------|-------------|
+76106	|Fort Worth	|Texas|	Central|	United States
+53711	|Madison	|Wisconsin	|Central|	United States|
+68025|	Fremont|	Nebraska|	Central	|United States|
+
+   
           
 
 ## Key Insights
